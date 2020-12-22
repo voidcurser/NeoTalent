@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoTalent.Application", "NeoTalent.Application\NeoTalent.Application.csproj", "{F896916B-DEC6-4CB5-A287-97908D54D991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Core", "0-Core", "{BEA7F1A6-C411-4B5F-BA64-280689346335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Services", "1-Services", "{151CB1F6-774C-4942-8407-5FA225DF1B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Tests", "2-Tests", "{C59D833C-EB32-413B-A64D-8CE3B996C666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{31E37C26-A557-44E4-94DF-130F395CE833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoTalent.Core", "NeoTalent.Core\NeoTalent.Core.csproj", "{CF69E631-824F-4E8D-9511-4E9FC2DD9489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoTalent.Services", "NeoTalent.Services\NeoTalent.Services.csproj", "{FAD845D6-75E7-48C5-8282-278B78DBB6B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoTalent.Tests", "NeoTalent.Tests\NeoTalent.Tests.csproj", "{873669B8-BF21-4429-AEE7-3C725B76E154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F896916B-DEC6-4CB5-A287-97908D54D991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F896916B-DEC6-4CB5-A287-97908D54D991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F896916B-DEC6-4CB5-A287-97908D54D991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F896916B-DEC6-4CB5-A287-97908D54D991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF69E631-824F-4E8D-9511-4E9FC2DD9489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF69E631-824F-4E8D-9511-4E9FC2DD9489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF69E631-824F-4E8D-9511-4E9FC2DD9489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF69E631-824F-4E8D-9511-4E9FC2DD9489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD845D6-75E7-48C5-8282-278B78DBB6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD845D6-75E7-48C5-8282-278B78DBB6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD845D6-75E7-48C5-8282-278B78DBB6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD845D6-75E7-48C5-8282-278B78DBB6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873669B8-BF21-4429-AEE7-3C725B76E154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873669B8-BF21-4429-AEE7-3C725B76E154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873669B8-BF21-4429-AEE7-3C725B76E154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873669B8-BF21-4429-AEE7-3C725B76E154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F896916B-DEC6-4CB5-A287-97908D54D991} = {31E37C26-A557-44E4-94DF-130F395CE833}
+		{CF69E631-824F-4E8D-9511-4E9FC2DD9489} = {BEA7F1A6-C411-4B5F-BA64-280689346335}
+		{FAD845D6-75E7-48C5-8282-278B78DBB6B0} = {151CB1F6-774C-4942-8407-5FA225DF1B19}
+		{873669B8-BF21-4429-AEE7-3C725B76E154} = {C59D833C-EB32-413B-A64D-8CE3B996C666}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D47952FD-4789-4237-B318-AF53C62133D6}
+	EndGlobalSection
+EndGlobal
